@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/tvMatchTime"
+
+            android:layout_width="70dp"
+            android:weightSum="1"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true">
+
+            <TextView
+                android:textSize="15sp"
+               android:text="17:00"
+                android:textColor="#3498db"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="15dp"
+                android:id="@id/matchTimeTV"
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                 />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="100dp"
+            android:id="@+id/MatchDatetv"
+            android:text="2016-06-23"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-10dp"
+            android:gravity="center_vertical"
+            android:layout_height="20dp"
+
+            android:textColor="#3498db"
+            android:layout_below="@id/tvMatchTime"/>
+
+
+
+        <TextView
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="15dp"
+            android:text="Arsenal"
+            android:id="@+id/hostNameTV"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="30dp"
+
+            android:layout_toRightOf="@+id/tvMatchTime" />
+        <TextView
+            android:textSize="15sp"
+            android:text="Barcelona"
+            android:id="@+id/AwayNameTV"
+            android:textColor="#ffffff"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="110dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/hostNameTV"
+            android:layout_marginTop="10dp"
+             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/HomeScoreTV"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="5"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/hostNameTV" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/AwayNameTV"
+            android:layout_marginTop="50dp"
+            android:id="@+id/AwayScoreTV"
+            android:text="7"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+             />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_marginTop="5dp"
+        >
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="123"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/MatchidTV"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/GamePrediction"
+            android:layout_alignLeft="@+id/MatchDatetv"
+            android:layout_alignStart="@+id/MatchDatetv" />
+
+        <ImageView
+
+            android:id="@+id/LeagueMatchImg"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_toRightOf="@+id/MatchidTV"
+            />
+
+        <TextView
+            android:layout_width="105dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="15sp"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/GamePrediction"
+            android:layout_height="wrap_content"
+            android:text="HOME WIN"
+            android:layout_centerHorizontal="true"
+          />
+
+        <TextView
+
+                android:layout_height="29dp"
+                 android:text="1.6"
+                 android:textColor="#ffffff"
+               android:textSize="15sp"
+                android:layout_marginLeft="3dp"
+                android:id="@+id/OddstextView"
+                android:layout_width="wrap_content"
+            />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:src="@drawable/correct_won"
+            android:id="@+id/WinLoseImg"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="20dp"
+            android:layout_marginLeft="15dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

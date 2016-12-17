@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF021545</color>
+    <color name="colorPrimaryDark">#000C2A</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="statusBar">#11122A</color>
+    <color name="lvDivider">#000C2A</color>
+    <color name="about_back">#ffffff</color>
+    <color name="lostColor">#ffcc0000</color>
+    <color name="wonColor">#0d71cc</color>
+    <color name="runningColor">#12f500</color>
+    <color name="text_color">#525252</color>
+</resources>

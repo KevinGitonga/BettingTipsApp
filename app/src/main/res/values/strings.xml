@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BetinTips</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">share</string>
+
+
+    <string name="action_about">about</string>
+
+    <string name="footer_banner_ad">ca-app-pub-4646836464224798/2140474663</string>
+    <string name="about_us">About Us</string>
+    <string name="about_us_detail">We are team of Bet gurus that are happy when you win.\n\nIf you are looking for awesome Tips that will make you win you are in the right place."</string>
+    <string name="version">version:1.0</string>
+    <string name="copyright">Copyright:2016 ipandasoft Inc</string>
+    <string name="title_activity_about">About App</string>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "769568514125",
+    "firebase_url": "https://spesatips-9016e.firebaseio.com",
+    "project_id": "spesatips-9016e",
+    "storage_bucket": "spesatips-9016e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769568514125:android:77e8376fb11c2415",
+        "android_client_info": {
+          "package_name": "com.medussasoft.betintipspro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769568514125-m5eik11652pqs3a9olruov4vr5epracg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCWNiSQMYuT8luTY3KePvy8OXWl5T7IHg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

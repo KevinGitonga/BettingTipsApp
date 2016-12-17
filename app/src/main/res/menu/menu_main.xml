@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.medussasoft.betintipspro.MainActivity">
+
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_shareapp"
+        android:title="Share App"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_action_aboutapp"
+        android:title="About app"
+        app:showAsAction="always"
+
+
+        />
+</menu>
