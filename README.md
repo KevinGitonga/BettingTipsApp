@@ -10,6 +10,14 @@ This Source code wil allow you to create a betting Tips app, Server side PHP cod
 - Tips Added on daily Basis
 - Clean Userinterface Design
 
+## Credits
+
+* [Volley](https://github.com/mcxiaoke/android-volley)
+* [Logan Square](https://github.com/bluelinelabs/LoganSquare)
+* [Picasso](https://github.com/square/picasso
+* [SweetAlert](https://github.com/pedant/sweet-alert-dialog)
+
+
 
 
 ## License
